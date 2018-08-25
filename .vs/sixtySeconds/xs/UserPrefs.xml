@@ -1,6 +1,11 @@
 ﻿<Properties StartupConfiguration="{E425AA2D-70AA-D864-AC0F-7FB17FBF17B5}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ClothesModifier.cs">
+    <Files>
+      <File FileName="Assets/HeadModifier.cs" Line="21" Column="1" />
+      <File FileName="Assets/ClothesModifier.cs" Line="7" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
