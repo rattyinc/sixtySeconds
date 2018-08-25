@@ -62,6 +62,8 @@ public class Player : MonoBehaviour {
             tempPos.y -= speed * Time.deltaTime;
             gameObject.transform.position = tempPos;
 		}
+		if (Input.GetKey(KeyCode.Space)) {
+		}
 	}
 
 	public void updateHair(bool left)
