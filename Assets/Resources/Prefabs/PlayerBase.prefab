@@ -84,6 +84,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4424108930375868}
   - component: {fileID: 114126839826776940}
+  - component: {fileID: 61283263133668536}
   m_Layer: 0
   m_Name: PlayerBase
   m_TagString: Untagged
@@ -190,6 +191,31 @@ Transform:
   m_Father: {fileID: 4424108930375868}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &61283263133668536
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1836042638951762}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0020665824, y: -0.06125033}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.34386927, y: 0.5539447}
+  m_EdgeRadius: 0
 --- !u!114 &114126839826776940
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -218,8 +244,8 @@ MonoBehaviour:
   - {fileID: 21300012, guid: b3c6b6726ae714d45b06aae44d77c178, type: 3}
   - {fileID: 21300014, guid: b3c6b6726ae714d45b06aae44d77c178, type: 3}
   colors:
-  - {r: 0, g: 0, b: 0, a: 1}
   - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0.8773585, g: 0.037246335, b: 0.037246335, a: 1}
   - {r: 1, g: 0.4817872, b: 0.023584902, a: 1}
   - {r: 1, g: 0.7904022, b: 0.02352941, a: 1}
@@ -227,6 +253,7 @@ MonoBehaviour:
   - {r: 0, g: 0.7489198, b: 0.8113208, a: 1}
   - {r: 0.52400786, g: 0.38812745, b: 0.9245283, a: 1}
   - {r: 0.697123, g: 0.29369885, b: 0.8301887, a: 1}
+  - {r: 0.7169812, g: 0.3087565, b: 0.11836952, a: 1}
 --- !u!212 &212386912763145298
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -309,7 +336,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300044, guid: b3c6b6726ae714d45b06aae44d77c178, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -355,7 +382,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300024, guid: b3c6b6726ae714d45b06aae44d77c178, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.7169812, g: 0.3087565, b: 0.11836952, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

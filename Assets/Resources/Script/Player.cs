@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour {
 
@@ -31,7 +32,7 @@ public class Player : MonoBehaviour {
 	}
 
 	void Awake() {
-        if (instance != null && instance != this) {
+		if (instance != null && instance != this) {
             Destroy(this.gameObject);
             return;
         } else {
@@ -62,8 +63,10 @@ public class Player : MonoBehaviour {
             tempPos.y -= speed * Time.deltaTime;
             gameObject.transform.position = tempPos;
 		}
-		if (Input.GetKey(KeyCode.Space)) {
-		}
+	}
+
+	public void confirmCharacter() {
+		SceneManager.LoadScene("RogerTestBench");
 	}
 
 	public void updateHair(bool left)
