@@ -17,9 +17,12 @@ public GameObject Oldthing;
 
 	void OnCollisionEnter2D(Collision2D col)
 	{
-		Nextthing.SetActive(true);
-		Debug.Log("CONTACT");
-		Oldthing.SetActive(false);
+		if (col.gameObject.tag == "Meteor")
+		{
+			Nextthing.SetActive(true);
+			Debug.Log("CONTACT");
+			Oldthing.SetActive(false);
+		}
 	}
 
 }
